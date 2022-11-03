@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main ()
+/*void main ()
 {
     int n;
     int n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, sonut;
@@ -20,4 +20,16 @@ void main ()
     n1 = n % 10; n = n / 10;
     sonut = (n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10) % 10;
     printf("Số nút của bạn là: %d", sonut);
+}
+*/
+
+void main()
+{
+    int n, sonut;
+    printf("Nhập SDT của bạn:");
+    scanf("%d", &n);
+    while(n != 0) {
+        sonut += n % 10; n = n / 10; // "+=" thuật toán cộng dồn.
+    }
+    printf("Số nút của bạn là: %d", sonut % 10);
 }
