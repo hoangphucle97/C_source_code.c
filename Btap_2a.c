@@ -13,3 +13,18 @@ void main()
         s = s + i;
     printf("1 + 2 + ... + %d = %d", n, s);
 }
+/*
+void main()
+{
+    int n, tongso, i;
+    printf(" Nhập n:");
+    scanf("%d", &n);
+    
+    tongso = 0;
+    for(i = 1; i <= n; i++) {
+        tongso += i;
+        printf("%d", i);
+}
+        printf("Vậy S = 1 + 2 + 3 + ... + %d = %d", n, tongso);
+}
+*/
