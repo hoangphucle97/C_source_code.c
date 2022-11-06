@@ -6,8 +6,8 @@ void main()
 {
     int n, s, i;
     printf("Nhập n:");
-    scanf("%d", &n);
-
+     scanf("%d", &n);
+     
     s = 0;
     for(i = 1; i <= n; i ++)
         s = s + i*i;
